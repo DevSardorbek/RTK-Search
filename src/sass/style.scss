@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+input {
+  outline: none;
+}
+li {
+  list-style: none;
+}
+.search__items {
+  display: flex;
+  // align-items: center;
+  flex-direction: column;
+  width: 400px;
+  max-height: 500px;
+  overflow: auto;
+  gap: 20px;
+  background-color: #fff;
+  padding: 20px;
+  div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
